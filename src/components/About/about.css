@@ -131,10 +131,6 @@
   font-size: 16px;
 }
 
-.iconDownload {
-  font-size: 20px;
-}
-
 .info__container {
   display: flex;
   flex-direction: column;
@@ -145,4 +141,44 @@
 .button {
   align-self: flex-start;
   margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img__box {
+    display: none;
+  }
+
+  .about__data {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about__description {
+    text-align: justify;
+    font-size: 14px;
+  }
+  
+  .button {
+    align-self: center;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .description__container {
+    padding: 20px 5px;
+  }
+  
+  .about__description {
+    font-size: 14px;
+  }
 }

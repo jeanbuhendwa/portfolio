@@ -29,3 +29,13 @@
 .info__box .section__subtitle {
     font-size: var(--tiny-font-size);
 }
+
+@media screen and (max-width: 768px) {
+  .infos__container {
+    flex-direction: row;
+  }
+  
+  .info__box i {
+    font-size: 35px;
+  }
+}
