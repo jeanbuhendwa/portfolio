@@ -81,7 +81,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.465);
+  box-shadow: inset 0 0 0 9px rgba(0, 0, 0, 0.219);
   order: 1;
   justify-self: center;
   width: 300px;
@@ -160,7 +160,7 @@
   .home__img {
     width: 250px;
     height: 250px;
-    box-shadow: inset 0 0 0 8px rgba(255, 255, 255 / 30%);
+    box-shadow: inset 0 0 0 8px rgba(0, 0, 0, 0.219);
   }
 
   .home__scroll {
@@ -188,7 +188,7 @@
   }
 
   .home__img {
-    box-shadow: inset 0 0 0 6px rgba(255, 255, 255 / 30%);
+    box-shadow: inset 0 0 0 6px rgba(0, 0, 0, 0.219);
     width: 200px;
     height: 200px;
   }
