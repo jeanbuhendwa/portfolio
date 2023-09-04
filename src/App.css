@@ -128,10 +128,13 @@ image {
 
 /* ----- buttons ----- */
 .button {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 1.25rem 2rem;
+  padding: 0.8rem 1.5rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
@@ -153,6 +156,12 @@ image {
   .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 2rem 0 4rem;
   }
 }
 
