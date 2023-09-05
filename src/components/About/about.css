@@ -2,7 +2,7 @@
   display: grid;
   text-align: center;
   gap: 60px;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .about__container {
@@ -161,12 +161,12 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .about__description {
     text-align: justify;
     font-size: 14px;
   }
-  
+
   .button {
     align-self: center;
     margin-top: 20px;
@@ -177,7 +177,7 @@
   .description__container {
     padding: 20px 5px;
   }
-  
+
   .about__description {
     font-size: 14px;
   }
