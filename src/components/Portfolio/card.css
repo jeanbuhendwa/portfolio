@@ -3,7 +3,6 @@
   max-width: 300px;
   height: 200px;
   background-color: #fff;
-  /* margin: 30px 10px; */
   padding: 12px 10px;
   display: flex;
   flex-direction: column;
@@ -38,9 +37,6 @@
   position: relative;
   top: -50px;
   padding: 15px 8px;
-  /* font-size: var(--small-font-size);
-  color: var(--text-color);
-  text-align: center; */
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease-in-out;
@@ -119,4 +115,16 @@
 .project__btn .btn i:hover {
   color: var(--container-color);
   background: var(--title-color);
+}
+
+@media screen and (max-width: 992px) {
+  .img__container {
+    width: 257px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img__container {
+    width: 265px;
+  }
 }
