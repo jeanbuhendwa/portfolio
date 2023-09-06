@@ -52,12 +52,13 @@
   margin-top: 35px;
   visibility: visible;
   opacity: 1;
-  transition-delay: 0.2s;
+  transition-delay: 0.3s;
 }
 
 .project__title {
   margin-top: 5px;
   font-size: var(--h3-font-size);
+  text-align: center;
 }
 
 .tech__icons {
@@ -96,7 +97,7 @@
 .project__btn {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 2px;
 }
 
 .project__btn .btn {
@@ -114,7 +115,7 @@
 
 .project__btn .btn i:hover {
   color: var(--container-color);
-  background: var(--title-color);
+  background: var(--text-color);
 }
 
 @media screen and (max-width: 992px) {
@@ -126,5 +127,15 @@
 @media screen and (max-width: 768px) {
   .img__container {
     width: 265px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    max-width: 320px;
+  }
+
+  .img__container {
+    width: 285px;
   }
 }
