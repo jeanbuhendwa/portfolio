@@ -1,6 +1,8 @@
 .portfolio {
-  display: grid;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 50px;
   padding-top: 80px;
 }
@@ -9,6 +11,17 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 35px;
+  margin-bottom: 20px;
+  padding-top: 25px;
+}
+
+.show__more__btn {
+  width: 180px;
+  align-self: center;
+}
+
+.show__more__btn i {
+  font-size: var(--h2-font-size);
 }
 
 @media screen and (max-width: 768px) {
