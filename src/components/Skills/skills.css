@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
-  padding-top: 80px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .skills__container {
@@ -55,7 +56,7 @@
   border: 2px solid var(--text-color);
   padding: 3px 8px;
   border-radius: 0 15px 0 15px;
-  animation: icon_animate 5s ease-in-out infinite 1s;
+  animation: icon_animate 2s ease-in-out infinite 1s;
 }
 
 @keyframes icon_animate {
@@ -63,7 +64,7 @@
     border-radius: 0 15px 0 15px;
   }
   50% {
-    border-radius: 15px 0 15px 0;
+    border-radius: 0 8px 0 8px;
   }
   100% {
     border-radius: 0 15px 0 15px;
@@ -191,5 +192,14 @@
     transform: translateY(-1000px) rotate(720deg);
     opacity: 0;
     border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
   }
 }

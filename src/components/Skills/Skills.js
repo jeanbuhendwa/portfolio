@@ -18,10 +18,8 @@ const Skills = () => {
   };
 
   return (
-    <section className="skills section">
-      <h2 className="section__title" id="skills">
-        Skills
-      </h2>
+    <section className="skills section" id="skills">
+      <h2 className="section__title">Skills</h2>
       <div className="skills__container container">
         <Tilt options={defaultOptions} className="skills__content">
           <h3 className="section_subtitle skill__title">Technical skills</h3>
