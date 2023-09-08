@@ -58,3 +58,32 @@
 .contact__form-area textarea {
   resize: none;
 }
+
+@media screen and (max-width: 992px) {
+  .contact__container {
+    grid-template-columns: 48% 48%;
+    column-gap: 4%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact__container {
+      grid-template-columns: 1fr;
+      row-gap: 3rem;
+  }
+
+  .contact__form {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+    .contact__form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+  
+}
