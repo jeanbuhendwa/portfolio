@@ -13,7 +13,7 @@ const Portfolio = () => {
 
   return (
     <section className="portfolio section" id="portfolio">
-      <h2 className="section__title">Portfolio</h2>
+      <h2 className="section_title">Portfolio</h2>
       <div className="project__container container">
         {projectsToDisplay.map((project, index) => (
           <ProjectCard key={index} project={project} />
