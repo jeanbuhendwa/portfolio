@@ -6,7 +6,7 @@ import Info from "./Info";
 const About = () => {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
+      <h2 className="section_title">About Me</h2>
       <div className="about__container container">
         <div className="img__box">
           <div className="about__img__container">
