@@ -47,6 +47,11 @@
   color: var(--title-color-dark);
 }
 
+/* ---- change background header ---- */
+.scroll-header {
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.295);
+}
+
 /* ------ breakpoint ------ */
 
 @media screen and (max-width: 768px) {
