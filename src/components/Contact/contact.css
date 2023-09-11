@@ -78,7 +78,7 @@
 }
 
 .info__card:hover {
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: #e3e3e36a;
 }
 
 .img__info i {
