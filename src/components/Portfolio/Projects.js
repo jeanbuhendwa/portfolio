@@ -1,4 +1,3 @@
-import projectImg from "../../Assets/Img/IMG_8207-min.jpeg";
 import mathMagician from "../../Assets/Img/portfolio/mathMagician.png";
 import mealApp from "../../Assets/Img/portfolio/mealApp.png";
 import aeroPlane from "../../Assets/Img/portfolio/AeroPlane.png";
