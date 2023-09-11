@@ -1,7 +1,6 @@
 .about {
   display: grid;
   text-align: center;
-  gap: 60px;
   padding-top: 100px;
 }
 
