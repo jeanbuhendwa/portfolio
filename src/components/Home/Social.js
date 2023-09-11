@@ -5,6 +5,7 @@ const Social = () => {
         href="https://github.com/jeanbuhendwa"
         className="home__social-icon"
         target="_blank"
+        rel="noreferrer"
       >
         <i class="uil uil-github"></i>
       </a>
@@ -12,6 +13,7 @@ const Social = () => {
         href="https://www.linkedin.com/in/johnbuhendwa/"
         className="home__social-icon"
         target="_blank"
+        rel="noreferrer"
       >
         <i class="uil uil-linkedin"></i>
       </a>
@@ -19,6 +21,7 @@ const Social = () => {
         href="https://twitter.com/JeanjacqueI"
         className="home__social-icon"
         target="_blank"
+        rel="noreferrer"
       >
         <i class="uil uil-twitter"></i>
       </a>
@@ -26,6 +29,7 @@ const Social = () => {
         href="https://medium.com/@jeanjacquesirenge40"
         className="home__social-icon"
         target="_blank"
+        rel="noreferrer"
       >
         <i class="uil uil-medium-m"></i>
       </a>
