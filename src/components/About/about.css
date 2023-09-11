@@ -113,8 +113,8 @@
 
 .about__data {
   display: grid;
-  grid-template-columns: 79% 20%;
-  gap: 1%;
+  grid-template-columns: 77% 20%;
+  gap: 3%;
 }
 
 .description__container {
