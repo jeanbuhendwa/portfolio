@@ -18,6 +18,14 @@
 .nav__logo {
   color: var(--title-color);
   font-weight: var(--font-medium);
+  font-size: var(--h3-font-size);
+}
+
+.logo__bold {
+  background: var(--title-color);
+  color: var(--container-color);
+  padding: 3px;
+  border-radius: 8px;
 }
 
 .nav__list {

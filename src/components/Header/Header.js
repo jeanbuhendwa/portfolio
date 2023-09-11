@@ -15,7 +15,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          John Buh
+          John <span className="logo__bold">Buh</span>
         </a>
 
         <div className={toggle ? "nav__menu show__menu" : "nav__menu"}>
@@ -23,7 +23,10 @@ const Header = () => {
             <li className="nav__item">
               <a
                 href="#home"
-                onClick={() => setActiveNav("#home")}
+                onClick={() => {
+                  setActiveNav("#home");
+                  showMenu(!toggle);
+                }}
                 className={
                   activeNav === "#home" ? "nav__link active-link" : "nav__link"
                 }
@@ -34,7 +37,10 @@ const Header = () => {
             <li className="nav__item">
               <a
                 href="#about"
-                onClick={() => setActiveNav("#about")}
+                onClick={() => {
+                  setActiveNav("#about");
+                  showMenu(!toggle);
+                }}
                 className={
                   activeNav === "#about" ? "nav__link active-link" : "nav__link"
                 }
@@ -45,7 +51,10 @@ const Header = () => {
             <li className="nav__item">
               <a
                 href="#portfolio"
-                onClick={() => setActiveNav("#portfolio")}
+                onClick={() => {
+                  setActiveNav("#portfolio");
+                  showMenu(!toggle);
+                }}
                 className={
                   activeNav === "#portfolio"
                     ? "nav__link active-link"
@@ -58,7 +67,10 @@ const Header = () => {
             <li className="nav__item">
               <a
                 href="#skills"
-                onClick={() => setActiveNav("#skills")}
+                onClick={() => {
+                  setActiveNav("#skills");
+                  showMenu(!toggle);
+                }}
                 className={
                   activeNav === "#skills"
                     ? "nav__link active-link"
@@ -71,7 +83,10 @@ const Header = () => {
             <li className="nav__item">
               <a
                 href="#contact"
-                onClick={() => setActiveNav("#contact")}
+                onClick={() => {
+                  setActiveNav("#contact");
+                  showMenu(!toggle);
+                }}
                 className={
                   activeNav === "#contact"
                     ? "nav__link active-link"
@@ -81,11 +96,11 @@ const Header = () => {
                 <i className="uil uil-message nav__icon"></i> Contact
               </a>
             </li>
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <a href="#contact" className="nav__link">
                 <i class="uil uil-sun"></i>
               </a>
-            </li>
+            </li> */}
           </ul>
 
           <i
