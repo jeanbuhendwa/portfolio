@@ -1,12 +1,13 @@
 import "./about.css";
 import AboutImg from "../../Assets/Img/IMG_8207-min.jpeg";
-import Resume from "../../Assets/docs/Resume.pdf";
+import Resume from "../../Assets/docs/Jean_Jacques_Resume.pdf";
 import Info from "./Info";
 
 const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section_title">About Me</h2>
+      <span className="section_subtitle">Who is Jean Jacques Buhendwa</span>
       <div className="about__container container">
         <div className="img__box">
           <div className="about__img__container">
@@ -19,16 +20,21 @@ const About = () => {
         <div className="about__data">
           <div className="description__container">
             <p className="about__description">
-              genarator of Lorem Ipsum has been the industry's standard dummy.
-              here are many variations of passages of Lorem Ipsum available, but
-              the majority have suffered alteration in some form, by injected
-              humour, or randomised words which don't look even slightly
-              believable. the majority have suffered alteration in some form and
-              by injected. and the majority have suffered alteration. This is a
-              case when they say.or randomised words which don't look even
-              slightly believable. the majority have suffered alteration in some
-              form and by injected. and the majority have suffered alteration.
-              This is a case when they say.
+              👋 I am a Full-Stack Developer with a knack for turning ideas into
+              user-friendly websites and applications. I use JavaScript, React,
+              Redux, HTML, and CSS to build websites that are both visually
+              stunning and exceptionally functional and I can handle the
+              back-end thanks to my Ruby and Ruby on Rails skills. <br />
+              Before venturing into professional development, I spearheaded a
+              groundbreaking project during my computer science studies. This
+              involved developing an embedded device to track users' heart rates
+              and temperatures, sending data securely to the cloud for remote
+              access. The project's recognition as one of the top endeavours at
+              my institution remains a source of immense pride and motivation.{" "}
+              <br />
+              📨 I am eager to connect with like-minded professionals,
+              collaborate on innovative projects, and contribute to the
+              ever-evolving tech landscape.
             </p>
 
             <a download="" className="button button--flex" href={Resume}>

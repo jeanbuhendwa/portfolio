@@ -1,5 +1,6 @@
 import "./contact.css";
 import Form from "./Form";
+import ContactInfo from "./ContactInfo";
 
 const Contact = () => {
   return (
@@ -9,6 +10,7 @@ const Contact = () => {
       <div className="contact__container container">
         <div className="contact__content">
           <h3 className="contact__title">Talk to me</h3>
+          <ContactInfo />
         </div>
         <div className="contact__content">
           <h3 className="contact__title">Write me your project</h3>
