@@ -23,10 +23,15 @@ const ProjectCard = ({ project }) => {
             <span className="project__role-text">{role}</span>
           </div>
           <div className="project__btn">
-            <a href={githubLink} className="btn" target="_blank">
+            <a
+              href={githubLink}
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="uil uil-github-alt"></i>
             </a>
-            <a href={viewLink} className="btn" target="_blank">
+            <a href={viewLink} className="btn" target="_blank" rel="noreferrer">
               <i className="uil uil-eye"></i>
             </a>
           </div>
