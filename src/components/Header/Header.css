@@ -18,7 +18,7 @@
 .nav__logo {
   color: var(--title-color);
   font-weight: var(--font-medium);
-  font-size: var(--h3-font-size);
+  font-size: var(--small-font-size);
 }
 
 .logo__bold {

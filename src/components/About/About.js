@@ -1,6 +1,5 @@
 import "./about.css";
 import AboutImg from "../../Assets/Img/IMG_8207-min.jpeg";
-import Resume from "../../Assets/docs/Jean_Jacques_Resume.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -37,8 +36,13 @@ const About = () => {
               ever-evolving tech landscape.
             </p>
 
-            <a download="" className="button button--flex" href={Resume}>
-              Download CV <i class="uil uil-file-download"></i>
+            <a
+              className="button button--flex"
+              href="https://docs.google.com/document/d/1Ue7pLxp-QVq4MlWt1Gh1CLljsScBof5zDvgTvkznrUE/edit?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              See my CV <i class="uil uil-file-download"></i>
             </a>
           </div>
           <div className="info__container">
