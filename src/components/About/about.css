@@ -180,4 +180,8 @@
   .about__description {
     font-size: 14px;
   }
+
+  .about__description {
+    font-size: 13px;
+  }
 }
