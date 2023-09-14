@@ -114,5 +114,3 @@ I would like to thank microverse of the good resources they provided web develop
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-Thank you 
