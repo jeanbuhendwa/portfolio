@@ -1,8 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ProjectCard from "./ProjectCard";
 import { projects } from "./Projects";
 import "./portfolio.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Portfolio = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  });
   const [showMore, setShowMore] = useState(false);
 
   const projectsToDisplay = showMore ? projects : projects.slice(0, 3);
@@ -13,13 +18,19 @@ const Portfolio = () => {
 
   return (
     <section className="portfolio section" id="portfolio">
-      <h2 className="section_title">Portfolio</h2>
-      <div className="project__container container">
+      <h2 className="section_title" data-aos="fade-right">
+        Portfolio
+      </h2>
+      <div className="project__container container" data-aos="fade-left">
         {projectsToDisplay.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
       </div>
-      <button onClick={toggleShowMore} className="show__more__btn button">
+      <button
+        onClick={toggleShowMore}
+        className="show__more__btn button"
+        data-aos="fade-right"
+      >
         {showMore ? (
           <>
             <span>Show Less</span>
