@@ -35,6 +35,42 @@
   --z-modal: 1000;
 }
 
+[data-theme='dark'] {
+  --title-color: hsl(var(--hue), var(--sat), 90%);
+  --text-color: hsl(var(--hue), var(--sat), 40%);
+  --body-color: hsl(var(--hue), var(--sat), 8%);
+  --container-color: hsl(var(--hue), var(--sat), 12%);
+}
+
+.dark_icon_container {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: var(--container-color);
+  padding: 10px;
+  border-radius: 50% 0 0 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.dark_icon_container i {
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--title-color);
+  opacity: 0.3;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.dark_icon_container i.active {
+  opacity: 1;
+}
+
+.dark_icon_container i.inactive {
+  opacity: 0;
+}
+
+
 /* Responsive typography */
 @media screen and (max-width: 992px) {
   :root {
