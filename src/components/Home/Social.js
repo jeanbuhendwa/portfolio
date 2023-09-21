@@ -23,7 +23,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-twitter"></i>
+        <i class="fa-brands fa-x-twitter"></i>
       </a>
       <a
         href="https://medium.com/@jeanjacquesirenge40"
@@ -31,7 +31,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-medium-m"></i>
+        <i class="fa-brands fa-medium"></i>
       </a>
     </div>
   );
