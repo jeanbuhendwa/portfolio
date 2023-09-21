@@ -29,7 +29,7 @@ const Skills = () => {
         Skills
       </h2>
       <div className="skills__container container">
-        <div data-aos="fade-right">
+        <div data-aos="fade-up">
           <Tilt options={defaultOptions} className="skills__content">
             <h3 className="section_subtitle skill__title">Technical skills</h3>
             <hr className="hr__skill" />
@@ -39,7 +39,7 @@ const Skills = () => {
             </div>
           </Tilt>
         </div>
-        <div data-aos="fade-left">
+        <div data-aos="fade-up">
           <Tilt options={defaultOptions} className="skills__content">
             <h3 className="section_subtitle skill__title">Soft skills</h3>
             <hr className="hr__skill" />

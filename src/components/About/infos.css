@@ -13,12 +13,14 @@
   align-items: center;
   gap: 3px;
   border: 1px solid hsla(0, 0%, 69%, 0.489);
+  width: 100%;
   padding: 5px 15px;
   border-radius: 4px;
 }
 
 .info__box i {
   font-size: 40px;
+  color: var(--text-color);
 }
 
 .info__box .info__title {

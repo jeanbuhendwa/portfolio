@@ -78,7 +78,7 @@
 .icon__skill__container span {
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
-  color: var(--title-color-dark);
+  color: var(--text-color);
 }
 
 .icon__skill__container img {

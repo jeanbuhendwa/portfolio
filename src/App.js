@@ -9,8 +9,16 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ScrollUp from "./components/Scroll/ScrollUp";
 import PropagateLoader from "react-spinners/PropagateLoader";
+import useLocalStorage from "use-local-storage";
 
 function App() {
+  const [theme, setTheme] = useLocalStorage("theme", "light");
+
+  const switchTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+  };
+
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -28,7 +36,7 @@ function App() {
           <p className="section_subtitle">Loading...</p>
         </div>
       ) : (
-        <>
+        <div data-theme={theme}>
           <Header />
           <main className="main">
             <Home />
@@ -39,7 +47,21 @@ function App() {
           </main>
           <Footer />
           <ScrollUp />
-        </>
+          <div className="dark_icon_container">
+            <i
+              onClick={switchTheme}
+              className={`fa-solid fa-moon ${
+                theme === "light" ? "active" : "inactive"
+              }`}
+            ></i>
+            <i
+              onClick={switchTheme}
+              className={`fa-solid fa-sun ${
+                theme === "dark" ? "active" : "inactive"
+              }`}
+            ></i>
+          </div>
+        </div>
       )}
     </>
   );

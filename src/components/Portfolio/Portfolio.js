@@ -21,7 +21,7 @@ const Portfolio = () => {
       <h2 className="section_title" data-aos="fade-right">
         Portfolio
       </h2>
-      <div className="project__container container" data-aos="fade-left">
+      <div className="project__container container" data-aos="fade-up">
         {projectsToDisplay.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
