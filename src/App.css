@@ -35,11 +35,65 @@
   --z-modal: 1000;
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --title-color: hsl(var(--hue), var(--sat), 90%);
-  --text-color: hsl(var(--hue), var(--sat), 40%);
+  --text-color: hsl(var(--hue), var(--sat), 60%);
   --body-color: hsl(var(--hue), var(--sat), 8%);
   --container-color: hsl(var(--hue), var(--sat), 12%);
+}
+
+[data-theme="dark"] .main {
+  background-color: var(--container-color);
+}
+
+[data-theme="dark"] .active-link,
+[data-theme="dark"] .nav__link:hover {
+  color: var(--title-color);
+}
+
+[data-theme="dark"] .scroll-header {
+  box-shadow: 0 10px 50px rgba(255, 255, 255, 0.198);
+}
+
+[data-theme="dark"] .home__social-icon:hover {
+  color: white;
+}
+
+[data-theme="dark"] .button:hover {
+  background-color: white;
+}
+
+[data-theme="dark"] .card {
+  background-color: #444444b7;
+}
+
+[data-theme="dark"] .skills__content {
+  background-color: #565656d3;
+}
+
+[data-theme="dark"] .icon__skill__container span {
+  color: #e3e3e3;
+}
+
+[data-theme="dark"] .circles li {
+  background: #e3e3e355;
+}
+
+[data-theme="dark"] .contact__form-tag {
+  background-color: var(--container-color);
+}
+
+[data-theme="dark"] .scrollup:hover {
+  background-color: white;
+}
+
+[data-theme="dark"] .footer_section {
+  background: var(--container-color);
+  border-top: 2px solid var(--text-color);
+}
+
+[data-theme="dark"] .footer__social-icon:hover {
+  color: white;
 }
 
 .dark_icon_container {
@@ -48,8 +102,8 @@
   right: 0;
   transform: translateY(-50%);
   background-color: var(--container-color);
-  padding: 10px;
-  border-radius: 50% 0 0 50%;
+  padding: 10px 10px 10px 15px;
+  border-radius: 20% 0 0 20%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   z-index: 1000;
 }
@@ -59,7 +113,7 @@
   cursor: pointer;
   color: var(--title-color);
   opacity: 0.3;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .dark_icon_container i.active {
@@ -69,7 +123,6 @@
 .dark_icon_container i.inactive {
   opacity: 0;
 }
-
 
 /* Responsive typography */
 @media screen and (max-width: 992px) {
@@ -208,6 +261,14 @@ image {
 @media screen and (max-width: 768px) {
   .section {
     padding: 2rem 0 4rem;
+  }
+
+  .dark_icon_container {
+    padding: 8px 8px 8px 10px;
+  }
+
+  .dark_icon_container i {
+    font-size: 20px;
   }
 }
 
