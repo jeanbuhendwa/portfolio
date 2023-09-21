@@ -2,7 +2,7 @@
   position: relative;
   max-width: 300px;
   height: 200px;
-  background-color: #fff;
+  background-color: var(--container-color);
   padding: 12px 10px;
   display: flex;
   flex-direction: column;
