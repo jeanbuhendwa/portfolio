@@ -118,10 +118,12 @@
 
 .dark_icon_container i.active {
   opacity: 1;
+  display: block;
 }
 
 .dark_icon_container i.inactive {
   opacity: 0;
+  display: none;
 }
 
 /* Responsive typography */
