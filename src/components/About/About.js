@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 const About = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 1200 });
   });
   return (
     <section className="about section" id="about" data-aos="zoom-in">

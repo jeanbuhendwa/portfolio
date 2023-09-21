@@ -127,6 +127,7 @@
 
 .about__description {
   text-align: justify;
+  color: var(--text-color);
   font-size: 16px;
 }
 
