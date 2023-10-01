@@ -39,6 +39,7 @@ ever-evolving tech landscape.
   <li><a href="#">Reactjs</a></li>
     <li><a href="#">HTML5</a></li>
     <li><a href="#">CSS3</a></li>
+    <li><a href="#">Fontawesome</a></li>
   </ul>
 </details>
 
