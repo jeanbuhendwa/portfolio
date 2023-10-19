@@ -26,6 +26,10 @@ const TechSkills = () => {
         <span>Bootstrap</span>
       </div>
       <div className="icon__skill__container">
+        <i class="devicon-tailwindcss-plain colored"></i>
+        <span>Tailwind</span>
+      </div>
+      <div className="icon__skill__container">
         <i class="devicon-git-plain colored"></i>
         <span>Git</span>
       </div>

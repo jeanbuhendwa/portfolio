@@ -4,39 +4,39 @@ import aeroPlane from "../../Assets/Img/portfolio/AeroPlane.png";
 import covidApp from "../../Assets/Img/portfolio/covidApp.png";
 import spaceTravel from "../../Assets/Img/portfolio/spaceTravel.png";
 import bookStore from "../../Assets/Img/portfolio/bookStore.png";
+import wtechShop from "../../Assets/Img/portfolio/wtechShop.png";
+import blogApp from "../../Assets/Img/portfolio/blogApp.png";
 export const projects = [
   {
-    imgSrc: mathMagician,
-    title: "Math Magician App",
+    imgSrc: wtechShop,
+    title: "WTech Shop",
     description:
-      "Math Magician is an online calculator app designed to help users solve a variety of math problems quickly and easily.",
+      "Explore a World of Infinite Possibilities with a Wide Range of Products, and Stay Ahead with the Latest Trends 🛒💫🌐",
     techIcons: [
       "uil uil-github",
       "uil uil-react",
-      "uil uil-css3-simple",
       "uil uil-java-script",
-      "bx bxl-bootstrap",
-      "bx bxl-redux",
+      "bx bxl-tailwind-css",
     ],
     role: "Front-End Developer",
-    githubLink: "https://github.com/jeanbuhendwa/math-magician",
-    viewLink: "https://math-magician-550k.onrender.com",
+    githubLink: "https://github.com/jeanbuhendwa/wtech-shop",
+    viewLink: "https://wtech-shop.netlify.app",
   },
   {
-    imgSrc: mealApp,
-    title: "Meal App",
+    imgSrc: blogApp,
+    title: "Blog App",
     description:
-      "The meal app allows users to get different information about meals, such as the ingredients, instructions, and nutritional value.",
+      "A versatile application designed to simplify the process of creating, managing your thoughts with the world. 👨‍💻💻",
     techIcons: [
       "uil uil-github",
-      "uil uil-html5",
-      "uil uil-css3-simple",
-      "uil uil-java-script",
-      "bx bxl-bootstrap",
+      "uil uil-react",
+      "bx bxl-javascript",
+      "bx bxl-nodejs",
+      "bx bxl-css3",
     ],
-    role: "Front-End Developer",
-    githubLink: "https://github.com/jeanbuhendwa/Meal-app",
-    viewLink: "https://jeanbuhendwa.github.io/Meal-app/dist/",
+    role: "⏳ In Development",
+    githubLink: "https://github.com/jeanbuhendwa/blog-app",
+    viewLink: "https://wtech-blog.netlify.app/",
   },
   {
     imgSrc: aeroPlane,
@@ -72,6 +72,39 @@ export const projects = [
     role: "Front-End Developer",
     githubLink: "https://github.com/jeanbuhendwa/covidApp",
     viewLink: "https://john-covidapp.netlify.app",
+  },
+  {
+    imgSrc: mathMagician,
+    title: "Math Magician App",
+    description:
+      "Math Magician is an online calculator app designed to help users solve a variety of math problems quickly and easily.",
+    techIcons: [
+      "uil uil-github",
+      "uil uil-react",
+      "uil uil-css3-simple",
+      "uil uil-java-script",
+      "bx bxl-bootstrap",
+      "bx bxl-redux",
+    ],
+    role: "Front-End Developer",
+    githubLink: "https://github.com/jeanbuhendwa/math-magician",
+    viewLink: "https://math-magician-550k.onrender.com",
+  },
+  {
+    imgSrc: mealApp,
+    title: "Meal App",
+    description:
+      "The meal app allows users to get different information about meals, such as the ingredients, instructions, and nutritional value.",
+    techIcons: [
+      "uil uil-github",
+      "uil uil-html5",
+      "uil uil-css3-simple",
+      "uil uil-java-script",
+      "bx bxl-bootstrap",
+    ],
+    role: "Front-End Developer",
+    githubLink: "https://github.com/jeanbuhendwa/Meal-app",
+    viewLink: "https://jeanbuhendwa.github.io/Meal-app/dist/",
   },
   {
     imgSrc: spaceTravel,
