@@ -26,11 +26,7 @@ const Portfolio = () => {
           <ProjectCard key={index} project={project} />
         ))}
       </div>
-      <button
-        onClick={toggleShowMore}
-        className="show__more__btn button"
-        data-aos="fade-right"
-      >
+      <button onClick={toggleShowMore} className="show__more__btn button">
         {showMore ? (
           <>
             <span>Show Less</span>
