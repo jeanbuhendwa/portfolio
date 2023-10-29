@@ -23,21 +23,23 @@ export const projects = [
     viewLink: "https://wtech-shop.netlify.app",
   },
   {
-    imgSrc: blogApp,
-    title: "Blog App",
+    imgSrc: mathMagician,
+    title: "Math Magician App",
     description:
-      "A versatile application designed to simplify the process of creating, managing your thoughts with the world. 👨‍💻💻",
+      "Math Magician is an online calculator app designed to help users solve a variety of math problems quickly and easily.",
     techIcons: [
       "uil uil-github",
       "uil uil-react",
-      "bx bxl-javascript",
-      "bx bxl-nodejs",
-      "bx bxl-css3",
+      "uil uil-css3-simple",
+      "uil uil-java-script",
+      "bx bxl-bootstrap",
+      "bx bxl-redux",
     ],
-    role: "⏳ In Development",
-    githubLink: "https://github.com/jeanbuhendwa/blog-app",
-    viewLink: "https://wtech-blog.netlify.app/",
+    role: "Front-End Developer",
+    githubLink: "https://github.com/jeanbuhendwa/math-magician",
+    viewLink: "https://math-magician-550k.onrender.com",
   },
+
   {
     imgSrc: aeroPlane,
     title: "Airplane Rent App",
@@ -72,23 +74,6 @@ export const projects = [
     role: "Front-End Developer",
     githubLink: "https://github.com/jeanbuhendwa/covidApp",
     viewLink: "https://john-covidapp.netlify.app",
-  },
-  {
-    imgSrc: mathMagician,
-    title: "Math Magician App",
-    description:
-      "Math Magician is an online calculator app designed to help users solve a variety of math problems quickly and easily.",
-    techIcons: [
-      "uil uil-github",
-      "uil uil-react",
-      "uil uil-css3-simple",
-      "uil uil-java-script",
-      "bx bxl-bootstrap",
-      "bx bxl-redux",
-    ],
-    role: "Front-End Developer",
-    githubLink: "https://github.com/jeanbuhendwa/math-magician",
-    viewLink: "https://math-magician-550k.onrender.com",
   },
   {
     imgSrc: mealApp,
@@ -139,5 +124,21 @@ export const projects = [
     role: "Front-End Developer",
     githubLink: "https://github.com/jeanbuhendwa/book-store",
     viewLink: "https://john-books.netlify.app",
+  },
+  {
+    imgSrc: blogApp,
+    title: "Blog App",
+    description:
+      "A versatile application designed to simplify the process of creating, managing your thoughts with the world. 👨‍💻💻",
+    techIcons: [
+      "uil uil-github",
+      "uil uil-react",
+      "bx bxl-javascript",
+      "bx bxl-nodejs",
+      "bx bxl-css3",
+    ],
+    role: "⏳ In Development",
+    githubLink: "https://github.com/jeanbuhendwa/blog-app",
+    viewLink: "https://wtech-blog.netlify.app/",
   },
 ];
