@@ -6,6 +6,7 @@ import spaceTravel from "../../Assets/Img/portfolio/spaceTravel.png";
 import bookStore from "../../Assets/Img/portfolio/bookStore.png";
 import wtechShop from "../../Assets/Img/portfolio/wtechShop.png";
 import blogApp from "../../Assets/Img/portfolio/blogApp.png";
+import aiSum from "../../Assets/Img/portfolio/aiSum.png";
 export const projects = [
   {
     imgSrc: wtechShop,
@@ -21,6 +22,22 @@ export const projects = [
     role: "Front-End Developer",
     githubLink: "https://github.com/jeanbuhendwa/wtech-shop",
     viewLink: "https://wtech-shop.netlify.app",
+  },
+  {
+    imgSrc: aiSum,
+    title: "AI Summarizer App",
+    description:
+      "AI Sum is a powerful web application that makes it easy to get summaries of articles from the web. Simply paste the URL and let AI Sum do the rest!",
+    techIcons: [
+      "uil uil-github",
+      "uil uil-react",
+      "uil uil-css3-simple",
+      "uil uil-java-script",
+      "bx bxl-redux",
+    ],
+    role: "Front-End Developer",
+    githubLink: "https://github.com/jeanbuhendwa/ai_sum",
+    viewLink: "https://wt-aisum.netlify.app/",
   },
   {
     imgSrc: mathMagician,
