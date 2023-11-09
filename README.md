@@ -1,6 +1,6 @@
 # John's Portfolio
 
-Welcome to my GitHub portfolio! This repository serves as a showcase of my work, projects, and skills.
+Welcome to my GitHub portfolio! This repository serves as a showcase of my projects, and skills.
 
 ## Table of Contents
 
