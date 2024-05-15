@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import "./about.css";
-import AboutImg from "../../Assets/Img/IMG_8207-min.jpeg";
 import Info from "./Info";
 import AOS from "aos";
 import "aos/dist/aos.css";
