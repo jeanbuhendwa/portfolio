@@ -22,7 +22,7 @@
 }
 
 .logo__bold {
-  background: var(--title-color);
+  background: #B86902;
   color: var(--container-color);
   padding: 3px;
   border-radius: 8px;
@@ -52,7 +52,7 @@
 /* ---- active link ---- */
 .active-link,
 .nav__link:hover {
-  color: var(--title-color-dark);
+  color: #B86902;
   font-weight: var(--font-semi-bold);
 }
 
