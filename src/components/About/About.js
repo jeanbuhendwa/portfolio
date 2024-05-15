@@ -7,21 +7,13 @@ import "aos/dist/aos.css";
 
 const About = () => {
   useEffect(() => {
-    AOS.init({ duration: 1200 });
+    AOS.init({ duration: 1000 });
   });
   return (
     <section className="about section" id="about" data-aos="zoom-in">
       <h2 className="section_title">About Me</h2>
       <span className="section_subtitle">Who is Jean Jacques Buhendwa</span>
       <div className="about__container container">
-        <div className="img__box">
-          <div className="about__img__container">
-            <img src={AboutImg} alt="" className="about__img" />
-          </div>
-          <h2 className="title__about" data-cta="My Description">
-            John Buhendwa
-          </h2>
-        </div>
         <div className="about__data">
           <div className="description__container">
             <p className="about__description">
