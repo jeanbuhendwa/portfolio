@@ -19,11 +19,12 @@
 
 .home__social-icon {
   font-size: 1.25rem;
-  color: var(--title-color);
+  color: #B56703;
+  transition: all ease-in-out 0.3s;
 }
 
 .home__social-icon:hover {
-  color: var(--title-color-dark);
+  color: #cc8426;
 }
 
 .home__title {
@@ -78,7 +79,7 @@
 }
 
 .home__img {
-  background: url(../../Assets/Img/IMG_8207-min.jpeg);
+  background: url(../../Assets/Img/Jean-Jacques_2-min-2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
