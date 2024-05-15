@@ -79,7 +79,7 @@
 }
 
 .info__card:hover {
-  background-color: #e3e3e36a;
+  background-color: #e2963283;
 }
 
 .img__info i {
@@ -90,7 +90,7 @@
 }
 .hover-effect .img__info i {
   color: var(--container-color);
-  background-color: var(--text-color);
+  background-color: #bb7213;
   border-radius: 8%;
 }
 
