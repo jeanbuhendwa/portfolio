@@ -1,7 +1,7 @@
 import "./infos.css";
 const Info = () => {
   return (
-    <div className="infos__container">
+    <div className="info__container">
       <div className="info__box">
         <i class="bx bxs-briefcase"></i>
         <h3 className="info__title">+ 10 Projects</h3>
@@ -9,7 +9,7 @@ const Info = () => {
       </div>
       <div className="info__box">
         <i class="bx bxs-award"></i>
-        <h3 className="info__title">+ 3 Years</h3>
+        <h3 className="info__title">+ 2 Years</h3>
         <span className="section__subtitle">Experience</span>
       </div>
     </div>

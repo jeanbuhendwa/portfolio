@@ -23,7 +23,7 @@ const Form = () => {
           type="text"
           name="name"
           className="contact__form-input"
-          placeholder="Enter Your Name"
+          placeholder="John brown"
         />
       </div>
       <div className="contact__form-div">
@@ -32,7 +32,7 @@ const Form = () => {
           type="email"
           name="email"
           className="contact__form-input"
-          placeholder="Enter Your Email"
+          placeholder="jbrown@domain.com"
         />
       </div>
       <div className="contact__form-div contact__form-area">
@@ -42,7 +42,7 @@ const Form = () => {
           cols="30"
           rows="10"
           className="contact__form-input"
-          placeholder="Write Your Project"
+          placeholder="Message..."
         ></textarea>
       </div>
 
