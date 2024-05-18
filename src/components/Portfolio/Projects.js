@@ -3,10 +3,11 @@ import mealApp from "../../Assets/Img/portfolio/mealApp.png";
 import aeroPlane from "../../Assets/Img/portfolio/AeroPlane.png";
 import covidApp from "../../Assets/Img/portfolio/covidApp.png";
 import spaceTravel from "../../Assets/Img/portfolio/spaceTravel.png";
-import bookStore from "../../Assets/Img/portfolio/bookStore.png";
 import wtechShop from "../../Assets/Img/portfolio/wtechShop.png";
 import blogApp from "../../Assets/Img/portfolio/blogApp.png";
 import aiSum from "../../Assets/Img/portfolio/aiSum.png";
+import chatApp from "../../Assets/Img/portfolio/chatApp.png";
+
 export const projects = [
   {
     imgSrc: wtechShop,
@@ -38,6 +39,22 @@ export const projects = [
     role: "Front-End Developer",
     githubLink: "https://github.com/jeanbuhendwa/ai_sum",
     viewLink: "https://wt-aisum.netlify.app/",
+  },
+  {
+    imgSrc: chatApp,
+    title: "WTChat App",
+    description:
+      "WTchat app is an powerful app built with React.js and Chat Engine. It has real-time messaging, user authentication, chat rooms.",
+    techIcons: [
+      "uil uil-github",
+      "uil uil-react",
+      "uil uil-css3-simple",
+      "uil uil-java-script",
+      "bx bxl-redux",
+    ],
+    role: "Front-End Developer",
+    githubLink: "https://github.com/jeanbuhendwa/chat-app",
+    viewLink: "https://wtchat.netlify.app/",
   },
   {
     imgSrc: mathMagician,
@@ -124,23 +141,6 @@ export const projects = [
     role: "Front-End Developer",
     githubLink: "https://github.com/jeanbuhendwa/space-traveller",
     viewLink: "https://space-hub-traveller.netlify.app",
-  },
-  {
-    imgSrc: bookStore,
-    title: "Book Store App",
-    description:
-      "Book store app is a web application that allows users to view, add, and delete books from a database.",
-    techIcons: [
-      "uil uil-github",
-      "uil uil-react",
-      "uil uil-css3-simple",
-      "uil uil-java-script",
-      "bx bxl-bootstrap",
-      "bx bxl-redux",
-    ],
-    role: "Front-End Developer",
-    githubLink: "https://github.com/jeanbuhendwa/book-store",
-    viewLink: "https://john-books.netlify.app",
   },
   {
     imgSrc: blogApp,
