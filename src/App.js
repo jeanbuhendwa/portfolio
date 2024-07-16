@@ -8,7 +8,6 @@ import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ScrollUp from "./components/Scroll/ScrollUp";
-import PropagateLoader from "react-spinners/PropagateLoader";
 import useLocalStorage from "use-local-storage";
 
 function App() {
@@ -31,9 +30,7 @@ function App() {
     <>
       {loading ? (
         <div className="loading__container">
-          <PropagateLoader color="#555555" size={25} speedMultiplier={0.8} />
-          <h1 className="section_title">John Buhendwa</h1>
-          <p className="section_subtitle">Loading...</p>
+          <div className="chase"></div>
         </div>
       ) : (
         <div data-theme={theme}>
