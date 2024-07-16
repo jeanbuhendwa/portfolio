@@ -10,6 +10,7 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
+  --primary: #cc8426;
   --body-font: "Poppins", sans-serif;
   --big-font-size: 3.5rem;
   --h1-font-size: 2.25rem;
@@ -257,8 +258,45 @@ image {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
 }
+
+.chase {
+  position: relative; }
+  .chase:after, .chase:before {
+    content: '';
+    height: 30px;
+    width: 30px;
+    display: block;
+    -webkit-animation: out .5s backwards, spin 1.25s .5s infinite ease;
+            animation: out .5s backwards, spin 1.25s .5s infinite ease;
+    border: 5px solid var(--primary);
+    border-radius: 100%;
+    -webkit-box-shadow: 0 -40px 0 -5px var(--primary);
+            box-shadow: 0 -40px 0 -5px var(--primary);
+    position: absolute; }
+  .chase:after {
+    -webkit-animation-delay: 0s, 1.25s;
+            animation-delay: 0s, 1.25s; }
+
+@-webkit-keyframes out {
+  from {
+    -webkit-box-shadow: 0 0 0 -5px var(--primary);
+            box-shadow: 0 0 0 -5px var(--primary); } }
+
+@keyframes out {
+  from {
+    -webkit-box-shadow: 0 0 0 -5px var(--primary);
+            box-shadow: 0 0 0 -5px var(--primary); } }
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
 
 @media screen and (max-width: 992px) {
   .container {
